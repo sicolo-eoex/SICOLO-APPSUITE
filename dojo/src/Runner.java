@@ -1,3 +1,5 @@
+import dojo.apps.AppSuite;
+
 public class Runner
 {
     // Variables
@@ -10,6 +12,7 @@ public class Runner
                // Variables
                     // Primitives
                     // Objets
+                        AppSuite myApp = new AppSuite();
                // LOgic
                   // Inputs
                   // Processing
