@@ -53,7 +53,7 @@ public class AppSuite
             }
             public void showMenu()
             {
-                
+                // Prepare structure
             }
 }
 
