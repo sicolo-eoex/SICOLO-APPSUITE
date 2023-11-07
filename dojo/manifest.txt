@@ -1,7 +1,13 @@
 ##### PROJECT MANIFEST #####
 
 ### AUTHOR ###
+    Juninho Loungila
+    Sosthene Grosset-Janin
 ### CONTRIBUTOR ###
 ### GOAL ###
+    Create a suite of business applications in Java
 ### TIMELINE ###
+    November 2023
 ### SUMMARY ###
+    This application aims to emulate the functionalities of various
+    enterprise level applications such as a RDBMS, CRM, ERP and others.
