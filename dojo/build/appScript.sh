@@ -2,19 +2,32 @@
 
 
 
+## ------------------------- ##
+## VARIABLES
+
+appName="AppSuite"
+homeDir="$HOME"
+rootDir="$homeDir/Desktop/SICOLO/SICOLO-APPSUITE/dojo/apps/$appName/"
+
+srcDir="$rootDir/src"
+libDir="$rootDir/lib"
+appsDir="$rootDir/apps"
+binDir="$rootDir/bin"
+
+## ------------------------- ##
+
+
+
 clear; 
-javac -cp .:../jars/* \
-      -d ../bin/ \
-      ../lib/*.java \
-      ../src/*.java \
-      ../apps/AppSuite/*.java \
-      
-cd ../bin/
 
-java -cp .:../jars/* Runner
+## Compilation
+javac -d $binDir $srcDir/*.java $libDir/*.java $appsDir/MarketMenu/*.java $appsDir/Markets/*.java
 
-sleep 2
-cd -
+
+## Execution
+cd $binDir
+java $appName.src.Runner
+
 
 
 
