@@ -51,6 +51,10 @@ public class AppSuite
             {
                 System.out.println(someMessage);
             }
+            public void showMenu()
+            {
+                
+            }
 }
 
 
