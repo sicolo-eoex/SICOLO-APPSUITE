@@ -25,7 +25,7 @@ public class Runner
         // Variables
             // Primitives
             // Objects
-            Runner myRunner = New Runner();
+            Runner myRunner = new Runner();
 
     }
 }   
