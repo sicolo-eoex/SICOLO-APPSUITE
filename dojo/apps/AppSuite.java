@@ -57,10 +57,26 @@ public class AppSuite
             {
                 // Prepare structure
             }
-            public void showUserIterface()
+            public void showUserInterface()
             {
-                
+                // Variables
+                    // Primitives
+                    int op1=0;
+
+                    // Objets
+                // Logic
+                    // Presentation
+                    System.out.println("\nWelcome to user");
+                    // Inputs
+                    // Processing
+                    // Validations
+                    while (op1 != 0);
+                    System.out.println("\nShow User Interface !!");
+                    // Exceptions
+                    // Outputs
+                    // Returns 
             }
+            
 }
 
 
