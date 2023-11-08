@@ -29,6 +29,7 @@ public class AppSuite
                     // Static Constants
                         String welcomeMessage = "WELCOME TO THIS APP";
                         String farewellMessage = "THANK YOU FOR USING THIS APP";
+                        String[] someUserInterface;
                         String menuAgrs[] = {""};
                     // Non-Static Constants
                 // Variables    
@@ -40,9 +41,11 @@ public class AppSuite
                     // Welcome
                     spalshScreen(welcomeMessage);
                     // Show User Interface
+                    showUserInterface();
                     // Show Menu
                     showMenu(menuAgrs);
                     // Show User Interface
+                    showUserInterface(someUserInterface);
                     // Farewell
                     spalshScreen(farewellMessage);
             }
@@ -57,7 +60,7 @@ public class AppSuite
             {
                 // Prepare structure
             }
-            public void showUserInterface()
+            public void showUserInterface(String[]someUserInterface)
             {
                 // Variables
                     // Primitives
@@ -75,6 +78,10 @@ public class AppSuite
                     // Exceptions
                     // Outputs
                     // Returns 
+            }
+            public void showUserInterface()
+            {
+
             }
             
 }
